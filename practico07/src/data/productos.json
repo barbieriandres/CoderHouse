@@ -1,0 +1,58 @@
+[
+  {
+    "title": "De Todo un Poco",
+    "price": 414.99,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/ramen-256.png",
+    "description": "De todo un poco con Huevo y papas...",
+    "ranking": 1,
+    "id": 1
+  },
+  {
+    "title": "Empanadas",
+    "price": 320,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/gyoza-256.png",
+    "description": "3 Empanadas...",
+    "ranking": 4,
+    "id": 2
+  },
+  {
+    "title": "Fideos Pasteros",
+    "price": 389.99,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/chow_mein-256.png",
+    "description": "Queres Pasta, comete unos Fideos.",
+    "ranking": 2,
+    "id": 3
+  },
+  {
+    "title": "Sopita de Calabazita",
+    "price": "210.99",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/hor_mok-256.png",
+    "description": "Estimamos que es sopa...",
+    "ranking": 0,
+    "id": 4
+  },
+  {
+    "title": "Galletitas Con Pepitas",
+    "price": "120",
+    "description": "CoooooooooooKiiiiieeeessss!!!!",
+    "ranking": "5",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/tod_mun-256.png",
+    "id": 5
+  },
+  {
+    "title": "Tablita de Algo",
+    "price": "999",
+    "description": "Pinta pescado con algunas cosas...",
+    "ranking": "4",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/fish-128.png",
+    "id": 6
+  },
+  {
+    "title": "Super Soup",
+    "price": "230.33",
+    "description": "Esta sopa te vuela la peluca... y te saca el frio.. tmb",
+    "ranking": "3",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/fried_rice-128.png",
+    "id": 7
+  }
+]

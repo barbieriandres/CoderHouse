@@ -1,0 +1,41 @@
+body {
+  background: skyblue;
+  min-height: 100vh
+}
+
+.text-gray {
+  color: #aaa
+}
+
+img {
+  height: 140px;
+  width: 140px
+}
+
+.overflow-auto {
+  overflow-y: auto!important;
+}
+
+label {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+label img {
+  height: 55px;
+  width: 55px
+}
+
+label:hover {
+  filter: grayscale(0);
+}
+input[type="radio"]:checked + label {
+  filter: grayscale(0);
+}
+
+.chat_user{
+  font-weight: 600;
+}
+.chat_msg{
+  font-style: italic;
+  color:cadetblue;
+}

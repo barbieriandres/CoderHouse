@@ -1,0 +1,30 @@
+<!-- list group item-->
+<li class="list-group-item">
+    <!-- Custom content-->
+    <div class="media align-items-md-center flex-column flex-md-row p-3">
+        <div class="media-body order-2 order-md-1">
+            <h5 class="mt-0 font-weight-bold mb-2">{{title}}</h5>
+            <p class="font-italic text-muted mb-0 small">{{description}}</p>
+            <div class="d-flex align-items-center justify-content-between mt-1">
+                <h6 class="font-weight-bold my-2">{{price}}</h6>
+                <ul class="list-inline small">
+                    <li class="list-inline-item m-0">
+                      {{#if (lte ranking 1)}}<i class="fas fa-star text-success"></i>{{else}}<i class="fas fa-star text-gray"></i>{{/if}}
+                    </li>
+                    <li class="list-inline-item m-0">
+                      {{#if (lte ranking 2)}}<i class="fas fa-star text-success"></i>{{else}}<i class="fas fa-star text-gray"></i>{{/if}}
+                    </li>
+                    <li class="list-inline-item m-0">
+                      {{#if (lte ranking 3)}}<i class="fas fa-star text-success"></i>{{else}}<i class="fas fa-star text-gray"></i>{{/if}}
+                    </li>
+                    <li class="list-inline-item m-0">
+                      {{#if (lte ranking 4)}}<i class="fas fa-star text-success"></i>{{else}}<i class="fas fa-star text-gray"></i>{{/if}}
+                    </li>
+                    <li class="list-inline-item m-0">
+                      {{#if (lte ranking 5)}}<i class="fas fa-star text-success"></i>{{else}}<i class="fas fa-star text-gray"></i>{{/if}}
+                    </li>
+                </ul>
+            </div>
+        </div><img src="{{thumbnail}}" alt="Generic placeholder image" width="200" class="ml-md-4 order-1 order-md-2">
+    </div> <!-- End -->
+</li> <!-- End -->

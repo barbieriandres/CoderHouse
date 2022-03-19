@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": 1635735685972,
+    "username": "admin",
+    "products": [
+      {
+        "id": 8,
+        "timestamp": 1635735895395,
+        "qty": 1
+      }
+    ],
+    "id": 2
+  },
+  {
+    "timestamp": 1635735918957,
+    "username": "pepe",
+    "products": [
+      {
+        "id": 2,
+        "timestamp": 1635735948959,
+        "qty": 3
+      }
+    ],
+    "id": 3
+  },
+  {
+    "timestamp": 1635724535537,
+    "username": "martin",
+    "products": [
+      {
+        "id": 6,
+        "timestamp": 1635735021510,
+        "qty": 5
+      },
+      {
+        "id": 5,
+        "timestamp": 1635735023254,
+        "qty": 8
+      },
+      {
+        "id": 7,
+        "timestamp": 1635736834235,
+        "qty": 3
+      }
+    ],
+    "id": 1
+  }
+]

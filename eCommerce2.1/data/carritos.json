@@ -1,0 +1,25 @@
+[
+  {
+    "timestamp": 1644531267036,
+    "username": "martin",
+    "productos": [],
+    "id": 2
+  },
+  {
+    "timestamp": 1644530698688,
+    "username": "admin",
+    "productos": [
+      {
+        "id": 8,
+        "timestamp": 1644530959302,
+        "qty": 1
+      },
+      {
+        "id": 9,
+        "timestamp": 1644532092051,
+        "qty": 1
+      }
+    ],
+    "id": 1
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "title": "De Todo un Poco",
+    "price": 414.99,
+    "description": "De todo un poco con Huevo y papas...",
+    "ranking": 1,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/ramen-256.png",
+    "timestamp": 1634879557369,
+    "id": 1
+  },
+  {
+    "title": "Empanadas",
+    "price": 320,
+    "description": "3 Empanadas...",
+    "ranking": 4,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/gyoza-256.png",
+    "timestamp": 1634879557369,
+    "id": 2
+  },
+  {
+    "title": "Fideos Pasteros",
+    "price": 389.99,
+    "description": "Queres Pasta, comete unos Fideos.",
+    "ranking": 2,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/chow_mein-256.png",
+    "timestamp": 1634879557369,
+    "id": 3
+  },
+  {
+    "title": "Sopita de Calabazita",
+    "price": "210.99",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/hor_mok-256.png",
+    "description": "Estimamos que es sopa...",
+    "ranking": 0,
+    "timestamp": 1634879557369,
+    "id": 4
+  },
+  {
+    "title": "Galletitas Con Pepitas",
+    "price": "120",
+    "description": "CoooooooooooKiiiiieeeessss!!!!",
+    "ranking": "5",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/tod_mun-256.png",
+    "timestamp": 1634879557369,
+    "id": 5
+  },
+  {
+    "title": "Tablita de Algo",
+    "price": "999",
+    "description": "Pinta pescado con algunas cosas...",
+    "ranking": "4",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/fish-128.png",
+    "timestamp": 1634879557369,
+    "id": 6
+  },
+  {
+    "title": "Super Soup",
+    "price": "230.33",
+    "description": "Esta sopa te vuela la peluca... y te saca el frio.. tmb",
+    "ranking": "3",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/fried_rice-128.png",
+    "timestamp": 1634879557369,
+    "id": 7
+  },
+  {
+    "title": "Cuadrado De Sabor",
+    "price": "499",
+    "description": "Un Cuadraro de Sabor, si es geometrico es porque el sabor esta en \"equilibrio\"",
+    "ranking": "5",
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/international-food/64/green_curry-128.png",
+    "timestamp": 1635735749106,
+    "id": 8
+  }
+]

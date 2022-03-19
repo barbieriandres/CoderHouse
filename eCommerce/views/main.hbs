@@ -1,0 +1,92 @@
+{{!-- main.hbs --}}
+
+<div class="navbar navbar-dark bg-dark navbar-twitch" role="navigation">
+	<div class="container">
+		<div class="navbar-header" data-bs-toggle="tooltip" data-bs-placement="right" title="Comete Algo!">
+			<a class="navbar-brand" href="#">
+				<span class="small-nav"> <span class="logo">🤤</span> </span>
+			</a>
+		</div>
+		<div class="tab-pane">
+			<ul class="nav navbar-nav" role="tablist">
+				<li data-bs-toggle="tooltip" data-bs-placement="right" title="Mercadito">
+          <a data-bs-toggle="tab" href="#Mercadito" data-bs-target="#Mercadito" class="active" role="tab">
+            <i class="fas fa-hamburger"></i>
+          </a>
+				</li>
+				<li data-bs-toggle="tooltip" data-bs-placement="right" title="Carrito">
+          <a class="position-relative" data-bs-toggle="tab" href="#Carrito" data-bs-target="#Carrito" role="tab">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="carritoItemCount" class="badge position-absolute top-0 bg-danger">0</span>
+          </a>
+				</li>
+        <li data-bs-toggle="tooltip" data-bs-placement="right" title="Edit">
+          <a data-bs-toggle="tab" href="#Edit" data-bs-target="#Edit" role="tab">
+            <i class="far fa-edit"></i>
+          </a>
+				</li>
+        <li data-bs-toggle="tooltip" data-bs-placement="right" title="Chat">
+          <a data-bs-toggle="tab" href="#Chat" data-bs-target="#Chat" role="tab">
+            <i class="far fa-comment"></i>
+          </a>
+				</li>
+				<li data-bs-toggle="tooltip" data-bs-placement="right" title="Logout">
+					<a href="/logout">
+						<i class="fas fa-sign-out-alt"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="padding-left: 71px;">
+  <div class="tab-content">
+    <div id="Mercadito" class="tab-pane fade show active" role="tabpanel" aria-labelledby="home-tab">
+      <div class="row text-center text-white mb-5">
+        <div class="col-lg-7 mx-auto">
+          <h1 class="display-4">Mercadito! <i class="fas fa-hamburger"></i></h1>
+        </div>
+      </div>
+      <div class="row text-dark">
+        <div class="col-lg-7 mx-auto">
+          <!-- List group-->
+          <ul id="listaProductos" class="list-group shadow">
+          </ul> <!-- End -->
+        </div>
+      </div>
+    </div>
+    <div id="Carrito" class="tab-pane fade" role="tabpanel" aria-labelledby="home-tab">
+      <div class="row text-center text-white mb-5">
+        <div class="col-lg-7 mx-auto">
+          <h1 class="display-4">Carrito <i class="fas fa-shopping-cart"></i></h1>
+        </div>
+      </div>
+      <div class="row text-dark">
+        <div class="col-lg-7 mx-auto">
+          <!-- List group-->
+          <ul id="listaCarrito" class="list-group shadow">
+          </ul> <!-- End -->
+        </div>
+      </div>
+    </div>
+    <div id="Edit" class="tab-pane fade" role="tabpanel" aria-labelledby="home-tab">
+      <div class="row text-center text-white mb-5">
+        <div class="col-lg-7 mx-auto">
+          <h1 class="display-4">Edit <i class="fas fa-edit"></i></h1>
+        </div>
+      </div>
+      {{> loadform }}
+    </div>
+    <div id="Chat" class="tab-pane fade" role="tabpanel" aria-labelledby="home-tab">
+      <div class="row text-center text-white mb-5">
+        <div class="col-lg-7 mx-auto">
+          <h1 class="display-4">Chat <i class="fas fa-comment"></i></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container position-absolute p-3 bottom-0 end-0" id="toastPlacement">
+  </div>
+</div>

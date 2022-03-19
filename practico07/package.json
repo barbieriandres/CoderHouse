@@ -1,0 +1,21 @@
+{
+  "name": "bonellimartin_practico5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "socket.io": "^4.3.1",
+    "knex": "^0.95.14",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2",
+    "sqlite3": "^5.0.2"    
+  }
+}

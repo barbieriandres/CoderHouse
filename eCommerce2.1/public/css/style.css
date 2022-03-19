@@ -1,0 +1,193 @@
+body {
+  background: skyblue;
+  font-family: "Lato", sans-serif;
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.text-gray {
+  color: #aaa
+}
+
+#listaCarrito img, #listaProductos img {
+  height: 120px;
+  width: 120px
+}
+
+.overflow-auto {
+  overflow-y: auto!important;
+}
+
+label {
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+label img {
+  height: 55px;
+  width: 55px
+}
+
+label:hover {
+  filter: grayscale(0);
+}
+input[type="radio"]:checked + label {
+  filter: grayscale(0);
+}
+
+.login-sidenav {
+  height: 100%;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.login-main {
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 768px) {
+  .login-sidenav {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-form{
+      margin-top: 10%;
+  }
+  .login-sidenav {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .login-main{
+    margin-left: 40%; 
+  }
+
+  .login-sidenav{
+      width: 40%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+
+  .login-form{
+    margin-top: 300px;
+  }
+}
+
+.login-main-text {
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+}
+
+.login-main-text pre{
+  color: #fff;
+  white-space: pre-wrap;
+}
+
+/*
+    NAVBAR
+*/
+.navbar-twitch {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 56px;
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+  z-index: 1030;
+  padding: 0px;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+}
+.navbar-twitch.open {
+	width: 240px;
+}
+.navbar-twitch > .container {
+	padding: 0px;
+	width: 100%;
+}
+.navbar-twitch .navbar-header,
+.navbar-twitch .navbar-brand {
+	float: none;
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+.navbar-twitch .navbar-brand {
+    height: 50px;   
+}
+.navbar-twitch > .container .navbar-brand {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav {
+	display: block;
+  text-align: center;
+}
+.navbar-twitch > .container .navbar-brand > .small-nav > span.logo {
+  display: block;
+  font-weight: bold;
+  padding: 0px 0px 0px 0px;
+  font-size: 28pt;
+  text-align: center;
+}
+.navbar-twitch.open > .container .navbar-brand {
+	width: 100%;
+	padding: 15px 15px 60px;
+	text-align: center;
+}
+
+.navbar-twitch .navbar-nav > li {
+	float: none;
+}
+
+.navbar-twitch .navbar-collapse {
+	padding: 0px;
+}
+.navbar-twitch .navbar-nav {
+	float: none;
+	margin: 0px;
+}
+.navbar-twitch .navbar-nav > li > a {
+	padding: 0px;
+  color: white;
+  text-decoration: None;
+  display: block;
+	font-size: 16pt;
+	padding: 13px 16px 13px 16px;
+  color: white;
+}
+
+.navbar-twitch .navbar-nav > li > a:hover {
+  background-color:#aaa;
+  color: black;
+}
+
+.navbar-twitch .navbar-nav > li > a > .badge {
+  font-size: 11px;
+}
+
+.navbar-twitch .tooltip,
+.navbar-twitch .tooltip .tooltip-inner {
+	max-width: auto;
+	white-space:nowrap;
+}

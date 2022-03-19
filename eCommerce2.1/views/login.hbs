@@ -1,0 +1,39 @@
+{{!-- login.hbs --}}
+<div class="container-fluid">
+  <div class="login-sidenav">
+    <div class="login-main-text">
+      <h2>Testing</h2>
+      <pre>
+  > En User cualquier cosa es valida, pero admin es el "admin"...
+  > Password puede estar vacio..
+      </pre>
+    </div>
+  </div>
+  <div class="login-main">
+    <div class="col-sm-12">
+      <div class="login-form">
+        <h1 class="display-4">CometeAlgo! 🤤</h1>
+        <form class="form" action="/login" method="post">
+          <div class="form-group row">
+            <div class="col-md-6">
+              <label>User Name</label>
+              <input type="text" name="username" id="username" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-6">
+              <label>Password</label>
+              <input type="text" name="password" id="password" class="form-control">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-6">
+              <label for="remember-me"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
+              <input type="submit" name="submit" class="btn btn-info btn-md" value="submit">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

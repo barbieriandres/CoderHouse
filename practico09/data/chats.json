@@ -1,0 +1,54 @@
+[
+  {
+    "author": {
+      "usermail": "jmbonelli@teco.com.ar",
+      "nombre": "Juan Martin",
+      "apellido": "Bonelli",
+      "edad": "38",
+      "alias": "Kimbuz",
+      "avatar": "https://www.pngarts.com/files/3/Avatar-PNG-Download-Image.png"
+    },
+    "id": 1,
+    "timestamp": 1634879557369,
+    "message": "Que lindo dia para Pedir Pizza!"
+  },
+  {
+    "author": {
+      "usermail": "batman@teco.com.ar",
+      "nombre": "Batman",
+      "apellido": "Bruce",
+      "edad": "??",
+      "alias": "Batman",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRthZcF6C12-eMC0JrJdv4CWO40-emM4BBFlw&usqp=CAU"
+    },
+    "id": 2,
+    "timestamp": 1644882336973,
+    "message": "Sip, es una buena idea."
+  },
+  {
+    "author": {
+      "usermail": "jmbonelli@teco.com.ar",
+      "nombre": "Juan Martin",
+      "apellido": "Bonelli",
+      "edad": "38",
+      "alias": "Kimbuz",
+      "avatar": "https://www.pngarts.com/files/3/Avatar-PNG-Download-Image.png"
+    },
+    "message": "Ahora pido una, re va una Fugazza... Domingo 7 de la noche.. ya fue!",
+    "timestamp": 1645393683695,
+    "id": 3
+  },
+  {
+    "author": {
+      "usermail": "batman@teco.com.ar",
+      "nombre": "Batman",
+      "apellido": "Bruce",
+      "edad": "??",
+      "alias": "Batman",
+      "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRthZcF6C12-eMC0JrJdv4CWO40-emM4BBFlw&usqp=CAU"
+    },
+    "message": "y asi podriamos charlar todo el dia... jajajaja",
+    "timestamp": 1645394389443,
+    "id": 4
+  }
+]

@@ -1,0 +1,37 @@
+{{!-- chatmod.hbs --}}
+
+<a class="btn btn-primary" data-toggle="collapse" href="#collapseChat" role="button" aria-expanded="false" aria-controls="collapseExample">
+  <i class="far fa-comment"></i>
+</a>
+<div class="container bg-dark text-white rounded-top collapse" id="collapseChat" style="width:400px;position:fixed;left:50px;bottom:0px;">
+  <h2 class="display-5">Tenes Preguntas?</h1>
+  <form id="chatLoadForm" class="was-validated">
+    <div class="row">
+      <div class="col-md-12 mx-auto">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroupPrepend">@</span>
+          </div>
+          <input type="text" class="form-control" id="chat_mail" placeholder="mail@mail.com" aria-describedby="inputGroupPrepend" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light text-dark border border-light mb-2 mt-2">
+      <div id="chat_wall" class="overflow-auto px-2" style="height: 300px;"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 mx-auto">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="chat_message" placeholder="" aria-label="" aria-describedby=""  required>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" id="chat_send" type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
